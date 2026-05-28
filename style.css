@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;   /* dark background */
+    color: #e5e7eb;        /* light text */
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(120deg, #1e293b, #0f172a);
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+/* PROFILE IMAGE */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    border: 3px solid #3b82f6;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* TEXT */
+h1 {
+    font-size: 32px;
+    color: #f9fafb;
+}
+
+h2 {
+    color: #3b82f6;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #cbd5f5;
+}
+
+/* BUTTONS */
+.btn {
+    background: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: #2563eb;
+}
+
+.btn-outline {
+    border: 2px solid #3b82f6;
+    color: #3b82f6;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.alt {
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+/* CARDS */
+.card {
+    background: #111827;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.card h3 {
+    color: #60a5fa;
+}
+
+/* LINKS */
+a {
+    color: #60a5fa;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    color: #9ca3af;
+}
